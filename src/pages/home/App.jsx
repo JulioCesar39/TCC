@@ -1,5 +1,7 @@
 import './App.scss';
 
+import { Link } from 'react-router-dom';
+
 export default function App() {
   return (
     <div className="pagina-inicial">
@@ -8,7 +10,7 @@ export default function App() {
        <nav>
         <li>CONTATO</li>
         <li>AGENDAMENTO</li>
-        <li>SERVIÇOS</li>
+        <li><Link to={'./servicos'}>SERVIÇOS</Link></li>
         <li>PORTFÓLIO</li>
        </nav>
       <div className='menu'>

@@ -1,0 +1,16 @@
+.pagina-nao-encontrada {
+    text-align: center;
+    
+  
+}
+
+.img{
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
+    height: 100%;
+    margin: 0;
+
+    
+}
