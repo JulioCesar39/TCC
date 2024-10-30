@@ -20,9 +20,14 @@ export default function Servicos () {
       <img src="./assets/image/menu.png" alt="" />
       </div>
        
-      
+     
       </header>
-    
-    </div>
+
+      <div className='conteudo'>
+
+        <img src='/assets/image/fundo-azul.png' />
+      </div>
+
+      </div>
     )
 }
