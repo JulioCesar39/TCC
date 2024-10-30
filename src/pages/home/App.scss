@@ -54,4 +54,45 @@ font-size: 10px;
 }
 
 }
+
+.conteudo{
+  display: inline-block;
+  position: relative;
+ 
+  img{
+    width: 100%;
+  }
 }
+ .login{
+  
+  
+    position: absolute;
+    
+    top: 300px;
+    right: 550px;
+    padding: 5px;
+  
+
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: #ffffff;
+    border-left: 15px;
+  
+  }
+.cadastra{
+
+  position: absolute;
+  top: 300px;
+  right: 350px;
+  padding: 5px;
+
+ 
+ border: solid 1px blue;
+ border-radius: 20px;
+ color: blue;
+ background-color: #fafafa;
+}
+ 
+}
+

@@ -14,9 +14,19 @@ export default function App() {
       <div className='menu'>
       <img src="./assets/image/menu.png" alt="" />
       </div>
-       
-      
       </header>
+      <div className='conteudo'>
+       <img src="./assets/image/Fundohome.png" alt="" />
+     <div className='login'>
+     <a href="?"><button>LOGIN</button></a>
+     </div>
+    
+    <div className='cadastra'>
+    <a href="?"><button>cadastrar-se</button></a>
+      </div>
+
+
+      </div>
     
     </div>
     
