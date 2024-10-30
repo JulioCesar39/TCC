@@ -1,16 +1,19 @@
-import './App.scss';
+import './index.scss';
 
 import { Link } from 'react-router-dom';
 
-export default function App() {
-  return (
-    <div className="pagina-inicial">
+export default function Servicos () {
+
+
+    return(
+
+        <div className="pagina-inicial">
       <header className="cabeçalho">
        <img src="./assets/image/logo.png" alt="logo" />
        <nav>
+        <li><Link to= {'/'}>HOME</Link></li>
         <li>CONTATO</li>
         <li>AGENDAMENTO</li>
-        <li><Link to={'./servicos'}>SERVIÇOS</Link></li>
         <li>PORTFÓLIO</li>
        </nav>
       <div className='menu'>
@@ -21,8 +24,5 @@ export default function App() {
       </header>
     
     </div>
-    
-  );
+    )
 }
-
-

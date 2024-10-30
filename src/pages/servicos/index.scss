@@ -1,0 +1,62 @@
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  .pagina-inicial{
+  min-height: 180vh;
+  
+  
+  
+  .cabeçalho{
+  
+  
+    background-color: #F5F4F4;
+    width: 100%;
+    height: 70px;
+  flex-direction: row;
+  display: flex;
+  
+  img{
+    width: 100px;
+    height: 60px;
+    margin-left: 7px;
+  }
+  
+  li {
+    list-style-type: none;
+  
+  }
+  
+  nav{
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  margin-left: 510px ;
+  align-items: center;
+  
+  font-size: 10px;
+  }
+  .menu {
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    img{
+      width: 40px;
+      height: 40px;
+      margin-left: 35px;
+    }
+  
+  }
+
+.Link {
+    text-decoration: none;
+}
+
+  
+  }
+  }
