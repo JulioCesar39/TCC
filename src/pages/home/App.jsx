@@ -1,21 +1,26 @@
 import './App.scss';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
     <div className="pagina-inicial">
       <header className="cabeçalho">
        <img src="./assets/image/logo.png" alt="logo" />
-       <nav>
+       <nav className='navegacao'>
         <li>CONTATO</li>
         <li>AGENDAMENTO</li>
-        <li>SERVIÇOS</li>
-        <li>PORTFÓLIO</li>
+        <li><Link to={'/pages/'}>SERVIÇOS</Link></li>
+        <li><Link to={'/pages/porfolio'}>PORTIFÓLIO</Link> </li>
+
+        <img src="./assets/image/menu.png" alt="" />
        </nav>
-      <div className='menu'>
-      <img src="./assets/image/menu.png" alt="" />
-      </div>
+      
+     
+    
       </header>
       <div className='conteudo'>
+
+        <h1>CUIDAR DA MENTE É <br /> TRANSFORMAR A VIDA</h1>
        <img src="./assets/image/Fundohome.png" alt="" />
      <div className='login'>
      <a href="/login">LOGIN</a>
