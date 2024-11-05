@@ -9,31 +9,32 @@ export default function ServicosDeOrientacaoVocacional() {
   return (
 
     <div className="pagina-servico">
-
       <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" className="logo" />
-        <nav className="menu-opcoes">
+        <img src="./assets/image/logo.png" alt="logo" />
+        <nav>
           <li><Link to={'/'}>HOME</Link></li>
-          <li><Link to={'contato'}>CONTATO</Link></li>
-          <li><Link to={'/agendamento'}>AGENDAMENTO</Link></li>
-          <li><Link to={'/portifolio'}>PORTIFÓLIO</Link> </li>
+          <li>CONTATO</li>
+          <li>AGENDAMENTO</li>
+          <li>PORTFÓLIO</li>
         </nav>
-        <div className="menu-icone">
-          <img src="./assets/image/menu.png" alt="menu" />
+        <div className='menu'>
+          <img src="./assets/image/menu.png" alt="" />
         </div>
+
+
       </header>
 
       <div className='container'>
 
         <img src="/assets/image/fundo-azul.png" alt="" />
 
-        <h1 classname='titulo'>Serviços de orientação vocacional</h1>
+        <h1 classname='titulo'>serviços de orientação vocacional</h1>
 
         <main className="content">
 
           <div className='card'>
             <p>
-            SERVIÇOS DE ORIENTAÇÃO VOCACIONAL AJUDAM A IDENTIFICAR INTERESSES E HABILIDADES POR MEIO DE AVALIAÇÕES, EXPLORAM OPÇÕES DE CARREIRA E OFERECEM SUPORTE NA ELABORAÇÃO DE CURRÍCULOS E PREPARAÇÃO PARA ENTREVISTAS. INCLUEM PLANEJAMENTO DE CARREIRA, SUPORTE EMOCIONAL E ACOMPANHAMENTO. ESTÃO DISPONÍVEIS EM ESCOLAS, UNIVERSIDADES E CENTROS DE CARREIRA.
+              Serviços de orientação vocacional ajudam a identificar interesses e habilidades por meio de avaliações, exploram opções de carreira e oferecem suporte na elaboração de currículos e preparação para entrevistas. Incluem planejamento de carreira, suporte emocional e acompanhamento. Estão disponíveis em escolas, universidades e centros de carreira.
             </p>
           </div>
           <div className="card1">
@@ -44,7 +45,7 @@ export default function ServicosDeOrientacaoVocacional() {
               <li>1ª Consulta - Valor de R$130,00</li>
             </ul>
           </div>
-          <div className='botao'><button>Agende Aqui</button></div>
+          <div className='botao'><button>Agende Aqui</button></div>  
         </main>
 
 

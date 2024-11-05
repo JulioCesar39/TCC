@@ -7,10 +7,10 @@ export default function App() {
       <header className="cabeçalho">
        <img src="./assets/image/logo.png" alt="logo" />
        <nav className='navegacao'>
-        <li><Link to={'contato'}>CONTATO</Link></li>
-        <li><Link to={'/agendamento'}>AGENDAMENTO</Link></li>
-        <li><Link to={'/servicos'}>SERVIÇOS</Link></li>
-        <li><Link to={'/portifolio'}>PORTIFÓLIO</Link> </li>
+        <li>CONTATO</li>
+        <li>AGENDAMENTO</li>
+        <li><Link to={'/pages/'}>SERVIÇOS</Link></li>
+        <li><Link to={'/pages/porfolio'}>PORTIFÓLIO</Link> </li>
 
         <img src="./assets/image/menu.png" alt="" />
        </nav>

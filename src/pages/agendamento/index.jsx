@@ -1,15 +1,12 @@
 import './index.scss';
-
 import { Link } from 'react-router-dom';
 
-export default function Servicos () {
+export default function Agendamento(){
 
-
-    return(
-
-        <div className="pagina-inicial">
-      <header className="cabeçalho">
-       <img src="./assets/image/logo.png" alt="logo" />
+return(
+    <div className='Pagina-agendamento'>
+<header className="cabecalho">
+    <img src="./assets/image/logo.png" alt="logo" />
        <nav>
         <li><Link to= {'/'}>HOME</Link></li>
         <li>CONTATO</li>
@@ -19,15 +16,12 @@ export default function Servicos () {
       <div className='menu'>
       <img src="./assets/image/menu.png" alt="" />
       </div>
-       
-     
       </header>
+    </div>
+)
 
-      <div className='conteudo'>
 
-        <img src='/assets/image/fundo-azul.png' />
-      </div>
 
-      </div>
-    )
+
+
 }
