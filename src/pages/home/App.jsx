@@ -9,8 +9,8 @@ export default function App() {
        <nav className='navegacao'>
         <li>CONTATO</li>
         <li>AGENDAMENTO</li>
-        <li><Link to={'/pages/'}>SERVIÇOS</Link></li>
-        <li><Link to={'/pages/porfolio'}>PORTIFÓLIO</Link> </li>
+        <li><Link to={'/servicosDeOrientacaoVocacional'}>SERVIÇOS</Link></li>
+        <li><Link to={'/portifolio'}>PORTIFÓLIO</Link> </li>
 
         <img src="./assets/image/menu.png" alt="" />
        </nav>

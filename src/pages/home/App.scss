@@ -1,15 +1,9 @@
-
-
-
 *{
   box-sizing: border-box;
   font-family: 'Poppins';
 }
 
 .pagina-inicial{
-min-height: 180vh;
-
-
 
 .cabeçalho{
 
@@ -75,10 +69,10 @@ img{
   }
 }
  .login{
-  
+
   display: inline-block;
     position: absolute;
-    
+
     top: 300px;
     right: 800px;
     padding: 5px;
@@ -88,8 +82,8 @@ img{
     border-radius: 20px;
     background-color: #3315da;
     border-left: 15px;
-    
-  
+
+
   }
 .cadastra{
 
@@ -98,7 +92,7 @@ img{
   right: 550px;
   padding: 5px;
   padding-right: 35px;
-  
+
  border-radius: 20px;
  background-color: #1521c5;
 
@@ -107,3 +101,23 @@ img{
  
 }
 
+@media (max-width: 1224px) {
+  .cabeçalho {
+   
+flex-direction: row;
+display: flex;
+
+img {
+
+  width: 30px;
+  height: 30px;
+  
+  
+  }
+
+}
+
+
+
+  
+}
