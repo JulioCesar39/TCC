@@ -1,3 +1,4 @@
+
 .pagina-servico {
   min-height: 100vh;
   display: flex;
@@ -7,43 +8,6 @@
   width: 100%;
 }
 
-.cabeçalho {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: #1e2a38;
-
-  .logo {
-    width: 120px; 
-  }
-
-  .menu-opcoes {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-
-    li {
-      color: #ffffff;
-      cursor: pointer;
-    }
-  }
-
-  .menu-icone {
-    display: none; 
-  }
-}
-
-@media (max-width: 768px) {
-  .cabeçalho .menu-opcoes {
-    display: none; 
-  }
-
-  .cabeçalho .menu-icone {
-    display: block; 
-  }
-}
 .container {
   display: flex;
   justify-content: center;

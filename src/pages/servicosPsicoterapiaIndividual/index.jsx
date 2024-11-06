@@ -9,19 +9,18 @@ export default function ServicosPsicoterapiaIndividual() {
   return (
 
     <div className="pagina-servico">
-      
-       <header className="cabeçalho">
-        
-        <img src="./assets/image/logo.png" alt="logo" className="logo" />
-        <nav className="menu-opcoes">
+      <header className="cabeçalho">
+        <img src="./assets/image/logo.png" alt="logo" />
+        <nav>
           <li><Link to={'/'}>HOME</Link></li>
-          <li><Link>CONTATO</Link></li>
-          <li><Link>AGENDAMENTO</Link></li>
-          <li><Link>PORTFÓLIO</Link></li>
+          <li>CONTATO</li>
+          <li>AGENDAMENTO</li>
+          <li>PORTFÓLIO</li>
         </nav>
-        <div className="menu-icone">
-          <img src="./assets/image/menu.png" alt="menu" />
+        <div className='menu'>
+          <img src="./assets/image/menu.png" alt="" />
         </div>
+
 
       </header>
 

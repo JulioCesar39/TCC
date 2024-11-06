@@ -13,10 +13,23 @@ return(
         <li>AGENDAMENTO</li>
         <li>PORTFÓLIO</li>
        </nav>
-      <div className='menu'>
-      <img src="./assets/image/menu.png" alt="" />
-      </div>
       </header>
+      <div className='conteudo-agendamento'>
+        <img src="./assets/image/fundo-azul.png" alt="" />
+        <h2>Selecione um dia</h2>
+
+    <div className='dias'>
+  <h3>21 agosto</h3>
+  <div className='selecionar-dia'>
+  <h3>22 de agostos</h3>
+  </div>
+  <div className='outro-dia'>
+    <img src="./assets/image/agendamento.png" alt="" />
+    <h3>Outro dia</h3>
+
+  </div>
+    </div>
+      </div>
     </div>
 )
 

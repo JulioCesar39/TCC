@@ -28,7 +28,7 @@ img{
         flex-direction: row;
         display: flex;
         gap: 20px;
-        margin-left: 800px ;
+        margin-left: 600px ;
         align-items: center;
         right: 300px;
         text-decoration: none;
@@ -38,21 +38,77 @@ img{
         li{
             text-decoration: none;
             list-style-type: none;
+            font-size: 11px;
         }
         
         
         
         }
-        .menu img{
-    
-            align-items: center;
-            display: flex;
-            width: 80px;
-            height: auto;
-            padding-left: 30px;
-            padding-top: 10px;
-    
+        .conteudo-agendamento img{
+          display: inline-block;
+          position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+
+        }
+        .conteudo-agendamento h2{
+          display: inline-block;
+          position: absolute;
+          margin-top: 100px;
+          margin-left: 40%;
+
+          color: white;
+        }
+
+        .dias h3{
+          display: inline-block;
+          position: absolute;
+          background-color: white;
+          justify-content: space-between;
+         padding: 20px;
+         padding-left: 50px;
+         padding-right: 50px;
+         border-radius: 10px;
+          margin-top: 150px;
+          margin-left: 275px;
+          border: 2px solid #000;
+        
+        }
+        .outro-dia h3{
           
-          }
+          margin-top: 150px;
+        margin-left: 585px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 2px solid #000;
+        
+        }
+        .selecionar-dia h3{
+          display: inline-block;
+          position: absolute;
+          background-color: white;
+          justify-content: space-between;
+          padding: 20px;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          padding-bottom: 25px;
+          border: 2px solid #000;
+          text-align: center;
+         
+         border-radius: 10px;
+         margin-top: 150px;
+         margin-left: 420px;
+        }
+
+
+        .outro-dia img {
+   width: 30px;
+   height: auto;
+
+        }
+        
 
   }

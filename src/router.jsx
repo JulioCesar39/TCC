@@ -8,7 +8,6 @@ import Portfolio from './pages/portifolio';
 import NaoEncontrado from './pages/naoEncotrado';
 import Agendamento from './pages/agendamento';
 
-
 export default function Navegacao () {
 
 
@@ -21,7 +20,6 @@ export default function Navegacao () {
           <Route path='/servicosPsicoterapiaIndividual' element={<ServicosPsicoterapiaIndividual/>} />
           <Route path='/portifolio' element={<Portfolio />} />
           <Route path='/agendamento' element={<Agendamento />} />
-       
 
           <Route path='*' element={< NaoEncontrado/>} />
         </Routes>
