@@ -8,19 +8,20 @@ export default function ServicosDeOrientacaoVocacional() {
 
   return (
 
+  
     <div className="pagina-servico">
       <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" />
-        <nav>
+        
+        <img src="./assets/image/logo.png" alt="logo" className="logo" />
+        <nav className="menu-opcoes">
           <li><Link to={'/'}>HOME</Link></li>
-          <li>CONTATO</li>
-          <li>AGENDAMENTO</li>
-          <li>PORTFÓLIO</li>
+          <li><Link>CONTATO</Link></li>
+          <li><Link>AGENDAMENTO</Link></li>
+          <li><Link>PORTFÓLIO</Link></li>
         </nav>
-        <div className='menu'>
-          <img src="./assets/image/menu.png" alt="" />
+        <div className="menu-icone">
+          <img src="./assets/image/menu.png" alt="menu" />
         </div>
-
 
       </header>
 

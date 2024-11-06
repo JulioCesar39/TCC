@@ -10,18 +10,16 @@ export default function ServicosDeOrientacaoProfissional() {
 
     <div className="pagina-servico">
       <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" />
-        <nav>
+        <img src="./assets/image/logo.png" alt="logo" className="logo" />
+        <nav className="menu-opcoes">
           <li><Link to={'/'}>HOME</Link></li>
-          <li>CONTATO</li>
-          <li>AGENDAMENTO</li>
-          <li>PORTFÓLIO</li>
+          <li><Link>CONTATO</Link></li>
+          <li><Link>AGENDAMENTO</Link></li>
+          <li><Link>PORTFÓLIO</Link></li>
         </nav>
-        <div className='menu'>
-          <img src="./assets/image/menu.png" alt="" />
+        <div className="menu-icone">
+          <img src="./assets/image/menu.png" alt="menu" />
         </div>
-
-
       </header>
 
       <div className='container'>
@@ -33,7 +31,7 @@ export default function ServicosDeOrientacaoProfissional() {
         <main className="content">
 
           <div className='card'>
-          <p>Os serviços de orientação profissional ajudam indivíduos a tomar decisões sobre suas carreiras, identificando interesses, habilidades e valores. Por meio de testes vocacionais e consultas individuais, esses serviços oferecem suporte na escolha de cursos, estágios e empregos. Além disso, ajudam na elaboração de currículos e na preparação para entrevistas. O objetivo é capacitar os clientes a fazer escolhas informadas e satisfatórias, promovendo seu desenvolvimento pessoal e profissional.
+            <p>Os serviços de orientação profissional ajudam indivíduos a tomar decisões sobre suas carreiras, identificando interesses, habilidades e valores. Por meio de testes vocacionais e consultas individuais, esses serviços oferecem suporte na escolha de cursos, estágios e empregos. Além disso, ajudam na elaboração de currículos e na preparação para entrevistas. O objetivo é capacitar os clientes a fazer escolhas informadas e satisfatórias, promovendo seu desenvolvimento pessoal e profissional.
             </p>
           </div>
           <div className="card1">
@@ -44,7 +42,7 @@ export default function ServicosDeOrientacaoProfissional() {
               <li>1ª Consulta - Valor de R$130,00</li>
             </ul>
           </div>
-          <div className='botao'><button>Agende Aqui</button></div>  
+          <div className='botao'><button>Agende Aqui</button></div>
         </main>
 
 
