@@ -1,31 +1,5 @@
 .pagina-inicial {
 
-  .cabeçalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px 20px;
-    background-color: #F5F4F4;
-  
-    .logo {
-      width: 120px; 
-    }
-  
-    .menu-opcoes {
-      display: flex;
-      gap: 20px;
-      list-style: none;
-  
-      li {
-        color: #ffffff;
-        cursor: pointer;
-      }
-    }
-  
-    
-  }
-
  
     @media (max-width: 768px) {
       .cabeçalho .menu-opcoes {
@@ -50,21 +24,21 @@
   
     a {
       text-decoration: none;
-      color: #ffffff;
+      color: #000;
     }
   
     h1 {
       display: inline-block;
       position: absolute;
-      color: white;
+      color: rgb(255, 255, 255);
       top: 150px;
-      right: 500px;
+      right: 550px;
   
       @media (max-width: 1024px) {
         top: 100px;
         right: 250px;
         font-size: 1.5rem;
-        text-align: center;
+        
       }
   
       @media (max-width: 768px) {
@@ -98,7 +72,7 @@
   .login {
     top: 300px;
     right: 800px;
-    background-color: #3315da;
+    background-color: #ffffff;
   
     @media (max-width: 1024px) {
       right: 400px;
@@ -112,16 +86,26 @@
   .cadastra {
     top: 300px;
     right: 550px;
-    background-color: #1521c5;
-  
+    background-color: #f3f3f5;
+    
     @media (max-width: 1024px) {
       right: 200px;
+
     }
   
     @media (max-width: 768px) {
       right: 0;
     }
   }
+  .cadastra:hover{
+    background-color: #3315da;
+    border: #000 solid 2px;
+  }
+  .login:hover{
+    background-color: #3315da;
+    border: #000 solid 2px;
+  }
+
   
 
 }

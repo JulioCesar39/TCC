@@ -1,23 +1,16 @@
 import './App.scss';
 import { Link } from 'react-router-dom';
 
+import Cabecalho from '../../components/cabecalho';
+
 export default function App() {
+  
+
   return (
     <div className="pagina-inicial">
-      <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" className="logo" />
-        <nav className="menu-opcoes">
-          <li><Link to={'/contato'}>CONTATO</Link></li>
-          <li><Link to={'agendamento'}>AGENDAMENTO</Link></li>
-          <li><Link to={'portifolio'}>PORTFÓLIO</Link></li>
-          <li><Link to={'serviços'}>SERVIÇOS</Link></li>
-        </nav>
-        
-
-
-      </header>
+   <Cabecalho />
       <div className='conteudo'>
-
+      
         <h1>CUIDAR DA MENTE É <br /> TRANSFORMAR A VIDA</h1>
         <img src="./assets/image/Fundohome.png" alt="" />
         <div className='login'>

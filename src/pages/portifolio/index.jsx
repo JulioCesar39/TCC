@@ -1,3 +1,4 @@
+import Cabecalho from '../../components/cabecalho';
 import './index.scss';
 import { Link } from 'react-router-dom';
 
@@ -8,18 +9,7 @@ export default function Portfolio() {
 
 <div className='Pagina-portfolio'>
     
-<header className="cabecalho">
-       <img src="./assets/image/logo.png" alt="logo" />
-       <nav>
-        <li><Link to= {'/'}>HOME</Link></li>
-        <li>CONTATO</li>
-        <li>AGENDAMENTO</li>
-        <li>PORTFÓLIO</li>
-       </nav>
-      <div className='menu'>
-      <img src="./assets/image/menu.png" alt="" />
-      </div>
-      </header>
+<Cabecalho />
      <div className='fundo'>
      <img src="./assets/image/fundo-azul.png" alt="" />
      
