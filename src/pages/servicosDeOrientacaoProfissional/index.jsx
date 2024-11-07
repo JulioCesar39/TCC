@@ -9,20 +9,19 @@ export default function ServicosDeOrientacaoProfissional() {
   return (
 
     <div className="pagina-servico">
-      <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" />
-        <nav>
-          <li><Link to={'/'}>HOME</Link></li>
-          <li>CONTATO</li>
-          <li>AGENDAMENTO</li>
-          <li>PORTFÓLIO</li>
-        </nav>
-        <div className='menu'>
-          <img src="./assets/image/menu.png" alt="" />
-        </div>
-
-
-      </header>
+    <header className="cabeçalho">
+      <img src="./assets/image/logo.png" alt="logo" className="logo" />
+      <nav className="menu-opcoes">
+        <li><Link to={'/'}>HOME</Link></li>
+        <li><Link>CONTATO</Link></li>
+        <li><Link>AGENDAMENTO</Link></li>
+        <li><Link>PORTFÓLIO</Link></li>
+      </nav>
+      <div className="menu-icone">
+        <img src="./assets/image/menu.png" alt="menu" />
+      </div>
+    </header>
+  
 
       <div className='container'>
 
@@ -44,7 +43,7 @@ export default function ServicosDeOrientacaoProfissional() {
               <li>1ª Consulta - Valor de R$130,00</li>
             </ul>
           </div>
-          <div className='botao'><button>Agende Aqui</button></div>  
+          <div className='botao'><button>Agende Aqui</button></div>
         </main>
 
 

@@ -9,20 +9,19 @@ export default function ServicosDeOrientacaoVocacional() {
   return (
 
     <div className="pagina-servico">
-      <header className="cabeçalho">
-        <img src="./assets/image/logo.png" alt="logo" />
-        <nav>
-          <li><Link to={'/'}>HOME</Link></li>
-          <li>CONTATO</li>
-          <li>AGENDAMENTO</li>
-          <li>PORTFÓLIO</li>
-        </nav>
-        <div className='menu'>
-          <img src="./assets/image/menu.png" alt="" />
-        </div>
-
-
-      </header>
+    <header className="cabeçalho">
+      <img src="./assets/image/logo.png" alt="logo" className="logo" />
+      <nav className="menu-opcoes">
+        <li><Link to={'/'}>HOME</Link></li>
+        <li><Link>CONTATO</Link></li>
+        <li><Link>AGENDAMENTO</Link></li>
+        <li><Link>PORTFÓLIO</Link></li>
+      </nav>
+      <div className="menu-icone">
+        <img src="./assets/image/menu.png" alt="menu" />
+      </div>
+    </header>
+  
 
       <div className='container'>
 
@@ -34,7 +33,7 @@ export default function ServicosDeOrientacaoVocacional() {
 
           <div className='card'>
             <p>
-              Serviços de orientação vocacional ajudam a identificar interesses e habilidades por meio de avaliações, exploram opções de carreira e oferecem suporte na elaboração de currículos e preparação para entrevistas. Incluem planejamento de carreira, suporte emocional e acompanhamento. Estão disponíveis em escolas, universidades e centros de carreira.
+            SERVIÇOS DE ORIENTAÇÃO VOCACIONAL AJUDAM A IDENTIFICAR INTERESSES E HABILIDADES POR MEIO DE AVALIAÇÕES, EXPLORAM OPÇÕES DE CARREIRA E OFERECEM SUPORTE NA ELABORAÇÃO DE CURRÍCULOS E PREPARAÇÃO PARA ENTREVISTAS. INCLUEM PLANEJAMENTO DE CARREIRA, SUPORTE EMOCIONAL E ACOMPANHAMENTO. ESTÃO DISPONÍVEIS EM ESCOLAS, UNIVERSIDADES E CENTROS DE CARREIRA.
             </p>
           </div>
           <div className="card1">

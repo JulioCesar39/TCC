@@ -1,7 +1,3 @@
-*{
-  box-sizing: border-box;
-  font-family: 'Poppins';
-}
 
 .pagina-inicial{
 
@@ -15,36 +11,35 @@ flex-direction: row;
 display: flex;
 
 
-img {
+img{
   width: 100px;
   height: 60px;
-  margin-left: 5px;
-  
+  margin-left: 100px;
 }
 
 
 
 nav{
-  flex-direction: row;
-  display: flex;
-  gap: 20px;
-  margin-left: 800px ;
-  align-items: center;
-  right: 300px;
-  text-decoration: none;
-  
-  font-size: 10px;
+flex-direction: row;
+display: flex;
+gap: 10px;
+margin-right: 800px;
+align-items: center;
+width: 0px;
+margin-left: 350px;
+justify-content: flex-start;
+padding-left: 350px;
 
-          li{
-               text-decoration: none;
-               list-style-type: none;
-            }   
-    } 
-    :link{
-      text-decoration: none;
-      color: #000;
-    }
+font-size: 15px;
+img{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+    height: 40px;
+    margin-left: 0px;
  
+
+}
 }
 
 }
@@ -75,13 +70,14 @@ nav{
     position: absolute;
 
     top: 300px;
-    right: 750px;
-    padding: 10px 40px 10px 40px;
+    right: 800px;
+    padding: 5px;
+    padding-right: 35px;
     border: none;
 
     border-radius: 20px;
     background-color: #3315da;
-    
+    border-left: 15px;
 
 
   }
@@ -89,8 +85,9 @@ nav{
 
   position: absolute;
   top: 300px;
-  right: 500px;
-  padding: 10px 40px 10px 40px;
+  right: 550px;
+  padding: 5px;
+  padding-right: 35px;
 
  border-radius: 20px;
  background-color: #1521c5;
@@ -98,7 +95,7 @@ nav{
 
 }
  
-
+}
 
 @media (max-width: 1224px) {
   .cabeçalho {
