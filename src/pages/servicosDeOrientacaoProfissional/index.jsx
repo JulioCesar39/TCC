@@ -27,12 +27,13 @@ export default function ServicosDeOrientacaoProfissional() {
 
         <img src="/assets/image/fundo-azul.png" alt="" />
 
-        <h1 classname='titulo'>serviços de orientação vocacional</h1>
+        <h1 classname='titulo'>serviços de orientação profissional</h1>
 
         <main className="content">
 
           <div className='card'>
-          <p>Os serviços de orientação profissional ajudam indivíduos a tomar decisões sobre suas carreiras, identificando interesses, habilidades e valores. Por meio de testes vocacionais e consultas individuais, esses serviços oferecem suporte na escolha de cursos, estágios e empregos. Além disso, ajudam na elaboração de currículos e na preparação para entrevistas. O objetivo é capacitar os clientes a fazer escolhas informadas e satisfatórias, promovendo seu desenvolvimento pessoal e profissional.
+          <p>OS SERVIÇOS DE ORIENTAÇÃO PROFISSIONAL AJUDAM INDIVÍDUOS A TOMAR DECISÕES SOBRE SUAS CARREIRAS, IDENTIFICANDO INTERESSES, HABILIDADES E VALORES. POR MEIO DE TESTES VOCACIONAIS E CONSULTAS INDIVIDUAIS, ESSES SERVIÇOS OFERECEM SUPORTE NA ESCOLHA DE CURSOS, ESTÁGIOS E EMPREGOS. ALÉM DISSO, AJUDAM NA ELABORAÇÃO DE CURRÍCULOS E NA PREPARAÇÃO PARA ENTREVISTAS. O OBJETIVO É CAPACITAR OS CLIENTES A FAZER ESCOLHAS INFORMADAS E SATISFATÓRIAS, PROMOVENDO SEU DESENVOLVIMENTO PESSOAL E PROFISSIONAL.
+
             </p>
           </div>
           <div className="card1">

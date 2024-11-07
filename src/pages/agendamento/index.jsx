@@ -5,14 +5,16 @@ export default function Agendamento(){
 
 return(
 <div className='Pagina-agendamento'>
-<header className="cabecalho">
-    <img src="./assets/image/logo.png" alt="logo" />
-       <nav>
-        <li><Link to= {'/'}>HOME</Link></li>
-        <li><li><Link to={'/portifolio'}>PORTIFÓLIO</Link> </li></li>
-        <li>CONTATO</li>
-        <li><Link to={'/servicos'}>SERVIÇOS</Link></li>
-       </nav>
+<header className="cabeçalho">
+
+        <img src="./assets/image/logo.png" alt="logo" className="logo" />
+        <nav className="menu-opcoes">
+          <li><Link to={'/'}>HOME</Link></li>
+          <li><Link>CONTATO</Link></li>
+          <li><Link>PORTFÓLIO</Link></li>
+          <li><Link>SERVIÇOS</Link></li>
+        </nav>
+        
       </header>
   <div className='conteudo-agendamento'>
         <img src="./assets/image/fundo-azul.png" alt="" />
