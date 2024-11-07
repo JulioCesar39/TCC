@@ -40,18 +40,11 @@ nav{
                list-style-type: none;
             }   
     } 
-    .menu img{
-    
-      align-items: center;
-      display: flex;
-      width: 80px;
-      height: auto;
-      padding-left: 30px;
-      padding-top: 10px;
-
-    
+    :link{
+      text-decoration: none;
+      color: #000;
     }
-
+ 
 }
 
 }
@@ -82,14 +75,13 @@ nav{
     position: absolute;
 
     top: 300px;
-    right: 800px;
-    padding: 5px;
-    padding-right: 35px;
+    right: 750px;
+    padding: 10px 40px 10px 40px;
     border: none;
 
     border-radius: 20px;
     background-color: #3315da;
-    border-left: 15px;
+    
 
 
   }
@@ -97,9 +89,8 @@ nav{
 
   position: absolute;
   top: 300px;
-  right: 550px;
-  padding: 5px;
-  padding-right: 35px;
+  right: 500px;
+  padding: 10px 40px 10px 40px;
 
  border-radius: 20px;
  background-color: #1521c5;

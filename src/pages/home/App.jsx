@@ -8,11 +8,11 @@ export default function App() {
        <img src="./assets/image/logo.png" alt="logo" />
        <nav className='navegacao'>
         <li>CONTATO</li>
-        <li>AGENDAMENTO</li>
-        <li><Link to={'/pages/'}>SERVIÇOS</Link></li>
-        <li><Link to={'/pages/porfolio'}>PORTIFÓLIO</Link> </li>
+        <li><Link to={'/agendamento'}>AGENDAMENTO</Link></li>
+        <li><Link to={'/servicos'}>SERVIÇOS</Link></li>
+        <li><Link to={'/portifolio'}>PORTIFÓLIO</Link> </li>
 
-        <img src="./assets/image/menu.png" alt="" />
+        
        </nav>
       
      
