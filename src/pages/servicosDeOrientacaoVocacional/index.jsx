@@ -17,9 +17,6 @@ export default function ServicosDeOrientacaoVocacional() {
         <li><Link>AGENDAMENTO</Link></li>
         <li><Link>PORTFÓLIO</Link></li>
       </nav>
-      <div className="menu-icone">
-        <img src="./assets/image/menu.png" alt="menu" />
-      </div>
     </header>
   
 
