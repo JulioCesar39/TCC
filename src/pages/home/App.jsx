@@ -9,17 +9,13 @@ export default function App() {
   return (
     <div className="pagina-inicial">
    <Cabecalho />
-      <div className='conteudo'>
-      
-        <h1>CUIDAR DA MENTE É <br /> TRANSFORMAR A VIDA</h1>
-        <img src="./assets/image/Fundohome.png" alt="" />
-        <div className='login'>
-          <a href="/login">LOGIN</a>
-        </div>
-        <div className='cadastra'>
-          <a href="?">CADASTRAR-SE</a>
-        </div>
+      <div className='texto'>
+         <h1>Seja Bem-vindo a Psicolari!!</h1> 
+         <h2>Auto-amor e transformação</h2>
+      </div>
 
+      <div className='ppp'>
+       <p>"Transforme sua mente, transforme sua vida. O autoconhecimento é o primeiro passo para a verdadeira liberdade emocional."</p>
       </div>
 
     </div>
