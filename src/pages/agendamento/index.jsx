@@ -7,7 +7,7 @@ export default function Agendamento(){
 
 return(
 <div className='Pagina-agendamento'>
-  <Cabecalho />
+  <Cabecalho/>
   
   <div className='conteudo-agendamento'>
     <img src="./assets/image/fundo-azul.png" alt="" />

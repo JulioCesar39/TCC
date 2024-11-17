@@ -34,6 +34,7 @@ export default function ServicosDeOrientacaoVocacional() {
             </p>
           </div>
           <div className="card1">
+          <img src="./assets/image/perfil.png" alt="" />
             <h3>Dr. Larissa de Jesus</h3>
             <ul>
               <li>Consulta Online</li>

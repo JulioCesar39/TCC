@@ -38,6 +38,7 @@ export default function ServicosPsicoterapiaIndividual() {
             </p>
           </div>
           <div className="card1">
+          <img src="./assets/image/perfil.png" alt="" />
             <h3>Dr. Larissa de Jesus</h3>
             <ul>
               <li>Consulta Online</li>
@@ -45,7 +46,7 @@ export default function ServicosPsicoterapiaIndividual() {
               <li>1ª Consulta - Valor de R$130,00</li>
             </ul>
           </div>
-          <div className='botao'><button>Agende Aqui</button></div>  
+          <button> Agende Aqui</button>
         </main>
 
 

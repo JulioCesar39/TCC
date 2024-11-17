@@ -63,37 +63,31 @@
   
     .container {
       position: relative;
-      /* Torna o container o ponto de referência para elementos posicionados de forma absoluta */
       width: 100%;
-      height: 100vh;
-      /* Faz com que o container ocupe a altura total da tela */
-      overflow: hidden;
-      /* Evita que a imagem saia dos limites do container */
+      height: 100%;
   
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Garante que a imagem cubra o container sem distorção */
         position: absolute;
         top: 0;
         left: 0;
         z-index: -1;
-        /* Coloca a imagem atrás do conteúdo */
+       
       }
   
       h1 {
         position: absolute;
         top: 20px;
         left: 50%;
-        /* Posiciona no centro horizontalmente */
         transform: translateX(-50%);
-        /* Centraliza o título horizontalmente */
+        width: 450px;
   
         color: #ffffff;
-        /* Cor do texto */
         font-size: 1.5em;
         text-align: center;
+        
       }
     }
   
@@ -115,7 +109,7 @@
       color: #ffffff;
       padding: 20px;
       border-radius: 8px;
-      margin-top: 30px;
+      margin-top: 90px;
   
   
       .card {
@@ -125,7 +119,7 @@
         padding: 20px;
         background-color: rgba(189, 166, 166, 0.514);
         margin-top: 50px;
-        border-radius: 8px;
+        border-radius: 30px;
         justify-content: center;
   
       }
@@ -134,15 +128,24 @@
         background-color: rgba(189, 166, 166, 0.514);
         color: #ffffff;
         padding: 20px;
-        margin-top: 20px;
-        border-radius: 8px;
+        margin-top: 80px;
+        border-radius: 30px;
   
+
+        img{
+          position: absolute;
+          z-index: 999999;
+          width: 130px;
+          height: auto;
+         left: 42%;
+         top: 46%;
+        }
   
   
   
         h3 {
           color: #ffffff;
-          margin-top: 0;
+          margin-top: 80px;
         }
   
         ul {
@@ -159,23 +162,25 @@
         
       }
   
-      .botao {
+     
+      } button {
+      
         background-color: rgba(189, 166, 166, 0.514);
-        color: #0000;
+        color: #ffffff;
         padding: 10px;
         border-radius: 12px;
         cursor: pointer;
+        font-size: 18px;
   
         position: absolute;
-        bottom: 20px; /* Distância do canto inferior */
-        right: 0px; /* Distância do canto direito */
+        bottom: 20px; 
+        right: 0px; 
   
         button:hover {
-          background-color: rgba(255, 255, 255, 0.1); /* Leve opacidade no hover */
-          color: #ffffff;
+          background-color: rgba(214, 205, 205, 0.911); 
+          color: #000;
           cursor: pointer;
         }
-      }
     }
   
   

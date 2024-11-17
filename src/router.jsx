@@ -14,7 +14,7 @@ export default function Navegacao () {
     return (
         <BrowserRouter>
         <Routes>
-          <Route path='/' element={<App/>} />
+          <Route path='/Home' element={<App/>} />
           <Route path='/serviçosDeOrientacaoVocacional' element={<ServicosDeOrientacaoVocacional/>} />
           <Route path='/serviçosDeOrientacaoProfissional' element={<ServicosDeOrientacaoProfissional/>} />
           <Route path='/serviçosPsicoterapiaIndividual' element={<ServicosPsicoterapiaIndividual/>} />
