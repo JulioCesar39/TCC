@@ -9,16 +9,16 @@ export default function ServicosDeOrientacaoVocacional() {
   return (
 
     <div className="pagina-servico">
-    <header className="cabeçalho">
-      <img src="./assets/image/logo.png" alt="logo" className="logo" />
-      <nav className="menu-opcoes">
-        <li><Link to={'/'}>HOME</Link></li>
-        <li><Link>CONTATO</Link></li>
-        <li><Link>AGENDAMENTO</Link></li>
-        <li><Link>PORTFÓLIO</Link></li>
-      </nav>
-    </header>
-  
+      <header className="cabeçalho">
+        <img src="./assets/image/logo.png" alt="logo" className="logo" />
+        <nav className="menu-opcoes">
+          <li><Link to={'/'}>HOME</Link></li>
+          <li><Link to={'/agendamento'}>AGENDAMENTO</Link></li>
+          <li><Link to={'/portifolio'}>PORTFOLIO</Link></li>
+          <li><Link to={'/serviços'}>SERVIÇOS</Link></li>
+        </nav>
+      </header>
+
 
       <div className='container'>
 
@@ -30,11 +30,11 @@ export default function ServicosDeOrientacaoVocacional() {
 
           <div className='card'>
             <p>
-            SERVIÇOS DE ORIENTAÇÃO VOCACIONAL AJUDAM A IDENTIFICAR INTERESSES E HABILIDADES POR MEIO DE AVALIAÇÕES, EXPLORAM OPÇÕES DE CARREIRA E OFERECEM SUPORTE NA ELABORAÇÃO DE CURRÍCULOS E PREPARAÇÃO PARA ENTREVISTAS. INCLUEM PLANEJAMENTO DE CARREIRA, SUPORTE EMOCIONAL E ACOMPANHAMENTO. ESTÃO DISPONÍVEIS EM ESCOLAS, UNIVERSIDADES E CENTROS DE CARREIRA.
+              SERVIÇOS DE ORIENTAÇÃO VOCACIONAL AJUDAM A IDENTIFICAR INTERESSES E HABILIDADES POR MEIO DE AVALIAÇÕES, EXPLORAM OPÇÕES DE CARREIRA E OFERECEM SUPORTE NA ELABORAÇÃO DE CURRÍCULOS E PREPARAÇÃO PARA ENTREVISTAS. INCLUEM PLANEJAMENTO DE CARREIRA, SUPORTE EMOCIONAL E ACOMPANHAMENTO. ESTÃO DISPONÍVEIS EM ESCOLAS, UNIVERSIDADES E CENTROS DE CARREIRA.
             </p>
           </div>
           <div className="card1">
-          <img src="./assets/image/perfil.png" alt="" />
+            <img src="./assets/image/perfil.png" alt="" />
             <h3>Dr. Larissa de Jesus</h3>
             <ul>
               <li>Consulta Online</li>
@@ -42,7 +42,7 @@ export default function ServicosDeOrientacaoVocacional() {
               <li>1ª Consulta - Valor de R$130,00</li>
             </ul>
           </div>
-          <div className='botao'><button>Agende Aqui</button></div>  
+          <div className='botao'><button>Agende Aqui</button></div>
         </main>
 
 
